@@ -13,7 +13,7 @@ const bin2Dec = (num) => {
 
 const checkIfBin = () => {
     //Define the regex for strict binary numbers
-    let binRegex = /^[0-1]{1,}/g
+    let binRegex = /^[0-1]{1,}$/g
     let num = binaryField.value;
     //Test the number with the regex rules for if it is binary or not
     let isBin = binRegex.test(num)
