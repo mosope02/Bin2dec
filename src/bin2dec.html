@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Convert Binary numbers to Decimal/Dinary.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+    <link rel="stylesheet" href="style.css">
+    <title>Bin2Dec</title>
+</head>
+<body>
+    <main>
+        <!--Header Image-->
+        <div class="header-image">
+            <img src="img/bin2dec.png" alt="" width="120" >
+            <br>
+            <p>Binary to Decimal converter</p>
+        </div>
+        
+        <!--Input field for Binary Numbers-->
+        <form autocomplete="off" class="binary-form">
+            <label for="Binary">Binary:</label>
+            <input type="text" name="binary" id="binaryField" value="" placeholder="Enter a Binary Number">
+        </form>
+
+        <!--Decimal Output Display-->
+        <form action="" class="decimal-form">
+            <label for="Decimal">Decimal:</label>
+            <input type="text" name="decimal" id="decimalField" value="" disabled>
+        </form>
+
+        <div class="convert-button" id="convert"><button type="submit">CONVERT</button></div>
+        
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
